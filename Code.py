@@ -29,7 +29,16 @@ locktime = 5 #time between piece locks
 cleartime = (22, 24, 25, 27) #single is 22, double is 24, etc. Found by counting frames on youtube videos.
 
 
+'''
+Section for game state.
+'''
 
+class boardstate(main):
+    '''
+    This acts as a board state.
+    '''
+    def __init__(self):
+        pass
 
 '''
 Section for game state vars.
@@ -37,6 +46,7 @@ Section for game state vars.
 
 currentcombo = 0
 tspin = False
+
 
 
 def main(boardstate, queue):
