@@ -9,6 +9,14 @@ Created on Sat Dec  7 00:53:24 2019
 '''
 S-nake is a tetris bot coded on Python.
 Functions coded by notquiteprogrammer (check out his GitHub!)
+
+S-nake differs from other bots in two ways:
+    - First, S-nake uses multiple evaluator functions to find
+    the best course of action for different methods.
+    (What's best for downstacking may not be what's best for
+    t-spins.)
+    - Second, S-nake's "normal" (t-spin/tetris) evaluation function
+    is based on time, not on evaluation.
 '''
 
 '''
